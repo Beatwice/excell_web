@@ -13,11 +13,13 @@
  *= require_tree .
  *= require_self
  */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Saira:wght@500&display=swap');
 * {
     text-decoration: none;
+}
+body{
     font-family: 'Raleway', sans-serif;
+
 }
 
 .navbar-content {
@@ -58,6 +60,52 @@
 
 .my-container {
     padding: 0% 100px 0% 100px;
-    background-color: #151515;
     color: white;
+    background-color: #151515;
+    height: 100%;
+    width: 100%;
 }
+
+/* Font Weight CSS  */
+.semi-bold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+/* Font Size CSS */
+.font-size42 {
+    font-size: 42px;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+/* Home CSS */
+.height {
+    padding-top: 20%;
+    padding-bottom: 22.5%;
+}
+
+.btn-about {
+    color: #C02739;
+    background-color: #151515;
+    border: 2px solid #C02739; 
+    border-radius: 4px;
+    font-size: 14px;
+    height: 40px;
+    width: 102px;
+    transition:0.5s;
+}
+
+.btn-about:hover {
+    color: white;
+    background-color: #C02739;
+    transition:0.5s;
+}
+
+
+
